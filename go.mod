@@ -165,6 +165,9 @@ replace (
 
 	google.golang.org/grpc => google.golang.org/grpc v1.15.0
 
+	// Avoid CVE-2022-3064
+	gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.2.4
+
 	k8s.io/api => k8s.io/api v0.23.1
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.23.1
 	k8s.io/apimachinery => k8s.io/apimachinery v0.23.1
